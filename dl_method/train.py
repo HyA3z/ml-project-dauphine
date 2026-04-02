@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score, mean_absolute_error
 from torch.utils.data import Dataset, DataLoader
 
-df = pd.read_csv('cleaned_data_ml.csv')
+df = pd.read_csv('../dataset/cleaned_data_ml.csv')
 
 num_cols = [
     'duration', 'hour', 'weekday', 'musicOriginal',
